@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
+   user = {
+    nome: "Rico Chivela",
+    idade: 40,
+    descricao: "Programador experiente ucan"
+  }
   constructor() { }
 
   ngOnInit(): void {
