@@ -8,12 +8,14 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 export class ItemViewAddEditComponent implements OnInit, AfterViewInit {
 
   constructor() { }
-  
+
   ngAfterViewInit(): void {
     throw new Error('Method not implemented.');
   }
 
   ngOnInit(): void {
+    console.log('khakjdhkajsdhkjahsdkjas');
+    console.log('khakjdhkajsdhkjahsdkjas');
   }
 
 }
